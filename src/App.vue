@@ -8,7 +8,7 @@
 const axios = require("axios");
 axios
   .get(
-    "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=8670zijtrudfwx&redirect_uri=https%3A%2F%2Fdev.example.com%2Fauth%2Flinkedin%2Fcallback&state=fooobar&scope=r_liteprofile%20r_emailaddress%20w_member_social"
+    "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=8670zijtrudfwx&redirect_uri=https%3A%2F%2Fnostalgic-easley-6b2d6e.netlify.com%2F&state=fooobar&scope=r_liteprofile%20r_emailaddress%20w_member_social"
   )
   .then(function(response) {
     // handle success
